@@ -20,6 +20,8 @@ int main()
         if(i % 4 == 0) sum = (sum + 2) % 7;
         else sum = (sum + 1) % 7;
         printf("%s\n", dayDes[6 - sum]);
+        printf("\n");
+        printf("\n");
     }
     printf("\n");
     system("pause");
