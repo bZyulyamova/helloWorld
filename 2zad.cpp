@@ -13,6 +13,7 @@ int main()
              else sum = (sum + 1) % 7;
             printf("%s\n", dayAsc[sum]);
      }
+    printf("\n");
     else
     {
         for(i; i > year; i--)
@@ -20,6 +21,7 @@ int main()
         else sum = (sum + 1) % 7;
         printf("%s\n", dayDes[6 - sum]);
     }
+    printf("\n");
     system("pause");
     return 0;
 }
